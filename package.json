@@ -1,6 +1,6 @@
 {
   "name": "react-native-sudoku-grid",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "grid of sudoku style(or box style) for react native",
   "main": "sudokuGrid.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "git+https://ZackLeonardo@github.com/ZackLeonardo/react-native-sudokuGrid.git"
   },
   "keywords": [
+    "react-component",
     "react-native",
+    "ios",
+    "android",
     "sudoku",
     "grid",
     "box-style",
