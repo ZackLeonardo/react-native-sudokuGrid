@@ -69,7 +69,7 @@ var roleSudokuApp = React.createClass({
 
 ## Demo
 
-![Demo](https://github.com/ZackLeonardo/react-native-sudokuGrid/blob/master/1.png)
+![Demo](https://github.com/ZackLeonardo/react-native-sudokuGrid/blob/master/screenShot1.png)(https://github.com/ZackLeonardo/react-native-sudokuGrid/blob/master/screenShot2.png)
 
 ## Example
 
