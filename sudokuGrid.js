@@ -19,7 +19,7 @@ var {
 var GridCell = require('./gridCell');
 var s = require('./styles');
 
-var list = React.createClass({
+var sudokuGrid = React.createClass({
   getInitialState: function() {
     this.state = {
       dataSource: new ListView.DataSource({
@@ -92,4 +92,4 @@ var styles = StyleSheet.create({
   }
 });
 
-module.exports = list;
+module.exports = sudokuGrid;
