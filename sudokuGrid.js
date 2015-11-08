@@ -17,7 +17,6 @@ var {
 } = React;
 
 var GridCell = require('./gridCell');
-var s = require('./styles');
 
 var sudokuGrid = React.createClass({
   getInitialState: function() {
@@ -35,13 +34,13 @@ var sudokuGrid = React.createClass({
     // var rolePicName = roles.roles[0].rolePicName;
     // var roleName = roles.roles[0].roleName;
     var content = <ListView
-      contentContainerStyle={s.list}
+      contentContainerStyle={styles.list}
       ref="listview"
       dataSource={this.getDataSource(this.props.data)}
       renderRow={this.renderRow}
       />;
     return (
-      <View style={s.container}>
+      <View style={styles.container}>
         {content}
       </View>
     );
@@ -87,9 +86,22 @@ var sudokuGrid = React.createClass({
 });
 
 var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'stretch',
+    backgroundColor: '#F5FCFF',
+  },
   item: {
       margin: 10,
-  }
+  },
+  list: {
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginLeft: 10,
+  },
 });
 
 module.exports = sudokuGrid;

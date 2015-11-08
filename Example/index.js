@@ -14,7 +14,7 @@ var {
 
 // var ListItem = require('./listItem');
 var s = require('./styles');
-var SudokuGrid = require('./sudokuGrid');
+var SudokuGrid = require('react-native-sudoku-grid');
 var roleData = require('./roles.json');
 var roleInfo = require('./roleInfo');
 
